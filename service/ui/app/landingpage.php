@@ -60,7 +60,7 @@ include(APP_PATH."service/ui/common/home_header.php");
                                     </optgroup>
                                  </select>
                               </div>
-                           <label>in</label>
+                           <label> </label> 
                            <input type="text" placeholder="Cep" name="docZip" id="doc-zip">
                         </fieldset>
                      </div>
@@ -173,7 +173,7 @@ include(APP_PATH."service/ui/common/home_header.php");
 <li><a>Veja os horários disponíveis de qualquer médico e clique para reservar!</a></li> -->
 
 </ul>
-<h2>FAÇA O DOWNLOAD DO APP</h2>
+<h2>FAÇA O DOWNLOAD DO APLICATIVO</h2>
 </div>
 </div>
 

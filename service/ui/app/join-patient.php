@@ -13,24 +13,24 @@ include("service/ui/common/header.php");
                   <div id="patient_success" style="margin-top:20px;display:none;" class="alert alert-success">Registrado com sucesso .<br/>Verifique sua conta. (Verifique seu e-mail)</div>
                   <form  style="margin-top:20px;" id="patient-form" name="patient-form">
                   <div class="reg_section personal_info">
-                     <label>Email</label>
-                     <input type="text" name="email" data-type="email" data-trigger="change" data-required="true" value="" placeholder="Email Address">
+                     <label>E-mail</label>
+                     <input type="text" name="email" data-type="email" data-trigger="change" data-required="true" value="" placeholder="Endereço de e-mail">
                      <label>Criar uma senha</label>
-                     <input type="password" name="password" value="" data-minlength="6" data-trigger="change" data-required="true" id="password" placeholder="Password">
+                     <input type="password" name="password" value="" data-minlength="6" data-trigger="change" data-required="true" id="password" placeholder="Senha">
                   </div>
                   <div class="reg_section password">
                      <label>Nome</label>
-                     <input type="text" data-regexp="^[a-zA-Z]+$" data-trigger="change" data-minlength="3" data-required="true" placeholder="First" name="firstname" id=""  style='margin-bottom:5px' >
-                       <input type="text" data-regexp="^[a-zA-Z]+$" data-trigger="change" data-minlength="3" data-required="true" placeholder="Last" name="lastname" id="" >
+                     <input type="text" data-regexp="^[a-zA-Z]+$" data-trigger="change" data-minlength="3" data-required="true" placeholder="Primeiro nome" name="firstname" id=""  style='margin-bottom:5px' >
+                       <input type="text" data-regexp="^[a-zA-Z]+$" data-trigger="change" data-minlength="3" data-required="true" placeholder="Sobrenome" name="lastname" id="" >
                   </div>
                   <label>Data de Nascimento</label> 
-                  <input class="date-field-required" type="text" data-trigger="mouseleave" data-required="true" data-beatpicker="true" data-beatpicker-format="['DD','MM',YYYY']" name="dob" id="dob" placeholder="DD-MM-YYYY"  />   
+                  <input class="date-field-required" type="text" data-trigger="mouseleave" data-required="true" data-beatpicker="true" data-beatpicker-format="['DD','MM',YYYY']" name="dob" id="dob" placeholder="DD-MM-AAAA"  />   
                   <label>Sexo</label> 
                   <div class="clearBoth"></div>
                   <div class="rad-but">
-                     <input id="male" name="gender" value="1" data-required="true"   type="radio"> Homem
+                     <input id="male" name="gender" value="1" data-required="true"   type="radio"> Masculino
                      &nbsp;&nbsp;
-                     <input id="female" name="gender" value="2" data-required="true" type="radio"> Mulher
+                     <input id="female" name="gender" value="2" data-required="true" type="radio"> Feminino
                      <div class="clearBoth"></div>
                   </div>
                   <div class="reg_section password">
