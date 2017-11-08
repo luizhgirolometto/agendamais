@@ -144,40 +144,33 @@ include(APP_PATH."service/ui/common/home_header.php");
 <p>Encontre um médico ou dentista nas proximidades e reserve uma consulta instantaneamente. E é grátis! </p>
 <h2>CARACTERÍSTICAS</h2>
 
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First Name</th>
-      <th scope="col">Last Name</th>
-      <th scope="col">Username</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
+<ul class="list-unstyled">
+  <li class="media">
+    <img class="mr-3" src="..." alt="Generic placeholder image">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">EFICIÊNCIA</h5>
+      Saiba exatamente quem são os médicos que atendem no pelo seu plano de sáude ou convênio.
+    </div>
+  </li>
+  <li class="media my-4">
+    <img class="mr-3" src="..." alt="Generic placeholder image">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">QUALIDADE</h5>
+      Leia as avaliações dos pacientes para ajudá-lo a escolher o médico certo.
+    </div>
+  </li>
+  <li class="media">
+    <img class="mr-3" src="..." alt="Generic placeholder image">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">FACILIDADE/h5>
+      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+    </div>
+  </li>
+</ul>
 <ul>
-<li><a>Veja um mapa de médicos em seu plano de sáude.</a></li>
-<li><a>Leia as avaliações dos pacientes para ajudá-lo a escolher o médico certo.</a></li>
-<li><a>Veja os horários disponíveis de qualquer médico e clique para reservar!</a></li>
+<!-- <li><a>Veja um mapa de médicos em seu plano de sáude.</a></li>
+//<li><a></a></li>
+<li><a>Veja os horários disponíveis de qualquer médico e clique para reservar!</a></li> -->
 
 </ul>
 <h2>FAÇA O DOWNLOAD DO APP</h2>
