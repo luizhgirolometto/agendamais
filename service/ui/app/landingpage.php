@@ -143,6 +143,37 @@ include(APP_PATH."service/ui/common/home_header.php");
 <h1>CUIDADOS MÉDICOS À SUA DEMANDA!</h1>
 <p>Encontre um médico ou dentista nas proximidades e reserve uma consulta instantaneamente. E é grátis! </p>
 <h2>CARACTERÍSTICAS</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Username</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
 <ul>
 <li><a>Veja um mapa de médicos em seu plano de sáude.</a></li>
 <li><a>Leia as avaliações dos pacientes para ajudá-lo a escolher o médico certo.</a></li>
