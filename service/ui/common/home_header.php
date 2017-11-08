@@ -4,7 +4,7 @@
 <!DOCTYPE html><head>
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-   <title>Find a Doctor - Doctor Reviews &amp; Ratings | Book Online Instantly � Bookmydoc </title>
+   <title>Agende Online � AgendaMais </title>
    <link rel="shortcut icon" type="image/png" href="<?php echo WEB_ROOT?>service/public/images/favicon.png">
    <!-- <link href="<?php echo WEB_ROOT?>service/public/css/common.css" rel="stylesheet"> -->
    <link href="<?php echo WEB_ROOT?>service/public/css/custom.css" rel="stylesheet">
