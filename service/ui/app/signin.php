@@ -12,7 +12,7 @@
                
                   <fieldset class="account-text accotxt">
                      <label>
-                     E-mail<br>
+                     Email<br>
                      <input type="email" placeholder="E-mail" data-type="email" data-trigger="change" data-required="true" class="input-block-level"  name="email"  id="email">
                      </label>
                      <label>

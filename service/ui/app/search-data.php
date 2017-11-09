@@ -162,10 +162,10 @@ error_reporting(E_ALL);
                                     </div>
                                     <div class="row"></div>
                                     <div class="viewpro">
-                                        <p><a href="'. WEB_ROOT . "index.php/view-prrofile/" . $key . '">Ver perfil</a></p>
+                                        <p><a href="'. WEB_ROOT . "index.php/view-prrofile/" . $key . '">View Profile</a></p>
                                     </div>
                                     <div class="book">
-                                        <p><a href="javascript:void(0);" data-toggle="modal" class="dr_bkonline" targets="'. $key .'">Agendar</a></p>
+                                        <p><a href="javascript:void(0);" data-toggle="modal" class="dr_bkonline" targets="'. $key .'">Book Online</a></p>
                                     </div>
                                 </div>
                                
@@ -507,17 +507,17 @@ if ($_POST['page']) {
     
     // FOR ENABLING THE FIRST BUTTON
     if ($first_btn && $cur_page > 1) {
-        $msg .= "<a href='javascript:void(0);' p='1' class='page acti'>Inicio</a>";
+        $msg .= "<a href='javascript:void(0);' p='1' class='page acti'>First</a>";
     } else if ($first_btn) {
-        $msg .= "<a href='javascript:void(0);' p='1' class='page1'>Inicio</a>";
+        $msg .= "<a href='javascript:void(0);' p='1' class='page1'>First</a>";
     }
     
     // FOR ENABLING THE PREVIOUS BUTTON
     if ($previous_btn && $cur_page > 1) {
         $pre = $cur_page - 1;
-        $msg .= "<a href='javascript:void(0);' p='$pre' class='page acti'>Anterior</a>";
+        $msg .= "<a href='javascript:void(0);' p='$pre' class='page acti'>Prev</a>";
     } else if ($previous_btn) {
-        $msg .= "<a href='javascript:void(0);' class='page1'>Anterior</a>";
+        $msg .= "<a href='javascript:void(0);' class='page1'>Prev</a>";
     }
     for ($i = $start_loop; $i <= $end_loop; $i++) {
         
@@ -530,23 +530,23 @@ if ($_POST['page']) {
     // TO ENABLE THE NEXT BUTTON
     if ($next_btn && $cur_page < $no_of_paginations) {
         $nex = $cur_page + 1;
-        $msg .= "<a href='javascript:void(0);' p='$nex' class='page acti'>Próxima</a>";
+        $msg .= "<a href='javascript:void(0);' p='$nex' class='page acti'>Next</a>";
     } else if ($next_btn) {
-        $msg .= "<a href='javascript:void(0);' class='page1'>Próxima</a>";
+        $msg .= "<a href='javascript:void(0);' class='page1'>Next</a>";
     }
     
     // TO ENABLE THE END BUTTON
     if ($last_btn && $cur_page < $no_of_paginations) {
-        $msg .= "<a  href='javascript:void(0);' p='$no_of_paginations' class='page acti'>Ultima</a>";
+        $msg .= "<a  href='javascript:void(0);' p='$no_of_paginations' class='page acti'>Last</a>";
     } else if ($last_btn) {
-        $msg .= "<a href='javascript:void(0);' p='$no_of_paginations' class='page1'>Ultima</a>";
+        $msg .= "<a href='javascript:void(0);' p='$no_of_paginations' class='page1'>Last</a>";
     }
 
        if($end1>0){
         search_data($result,$scad,$msg); 
        }else{
         //$result_data['date_slide'] = $date_slide;
-            $result_data['html'] = '<p><i class="fa fa-exclamation-triangle fa-2x"></i><br />No Results Found<br /><small>Não há resultados de pesquisa para a pesquisa solicitada. Execute a opção de pesquisa com diferentes condições de pesquisa</small></p>';
+            $result_data['html'] = '<p><i class="fa fa-exclamation-triangle fa-2x"></i><br />No Results Found<br /><small>There are no search results for the requested search. Perform the search option with different search conditions</small></p>';
             $result_data['status'] = 0;
             echo json_encode($result_data);
        }

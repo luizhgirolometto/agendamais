@@ -11,7 +11,7 @@
                             <div class="col-lg-12">
                                 <div class="col-md-8">
                                     <div class="form">
-                                          <h2>Encontre um médico e agende uma consulta</h2>
+                                          <h2>Find a doctor and schedule an appointment</h2>
 
                                     </div>
                                     

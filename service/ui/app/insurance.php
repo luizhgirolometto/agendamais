@@ -160,7 +160,7 @@
 
       <div class="search-by col-md-12 col-sm-12 col-xs-12" style="font-weight:600;">
         <div class="col-md-9 col-sm-9 col-xs-12" style="margin-top">
-          <h3>Encontre um médico perto de você</h3>
+          <h3>Find a Doctor or Dentist Near You</h3>
         </div>
         <div class="col-md-3 col-sm-3 col-xs-12">
           <a href="<?php echo WEB_ROOT;?>index.php/search" style="float:right;padding:10px;" class="search-box searchbtn lg_btn">Search</a> 

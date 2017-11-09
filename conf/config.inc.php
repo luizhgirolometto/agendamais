@@ -11,9 +11,9 @@ define("APP_PATH", "./");
 
 
 
-define("BASE_URL","http://localhost/agendamaisweb/service/ui/app/");  
-define("WEB_ROOT","http://localhost/agendamaisweb/");
-define("SLIM_ROOT","http://localhost/agendamaisweb/");
+define("BASE_URL","http://girodesenvolvimento.com/agendamaisweb/service/ui/app/");  
+define("WEB_ROOT","http://girodesenvolvimento.com/agendamaisweb/");
+define("SLIM_ROOT","http://girodesenvolvimento.com/agendamaisweb/");
 
 define("DB_PREFIX", "scad_");
 
@@ -28,9 +28,9 @@ define("MAIL_PORT", "");
 
 
 
-$dbusername = "root";
-$dbpassword = "";
-$hostname = "localhost";
+$dbusername = "agendamaisbd";
+$dbpassword = "fujilink1018@";
+$hostname = "agendamaisbd.mysql.uhserver.com";
 
 
 $db = "agendamaisdb";

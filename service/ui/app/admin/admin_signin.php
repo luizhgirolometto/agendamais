@@ -40,16 +40,16 @@
   <div class="form">
   <div id="email_error" style="margin-top:20px;display:none;" class="alert alert-error">Email not verified.</div>
 		 <div id="signin_error" style="margin-top:20px;display:none;" class="alert alert-error">Invalid Login.</div>
-    <h2>Login de administradores</h2>
+    <h2>Login to your account</h2>
     <form id="admin-signin-form" name="admin-signin-form">
-      <input type="text" name="email" id="email" required placeholder="E-mail"/>
-      <input type="password" name="password" required id="password" placeholder="Senha"/>
+      <input type="text" name="email" id="email" required placeholder="Username"/>
+      <input type="password" name="password" required id="password" placeholder="Password"/>
       <div id="admin_signin" class="loin">Login</div>
       <!--<button id="admin_signin"></button>-->
     </form>
   </div>
   
-  <div class="cta">Esqueceu sua senha?</a></div>
+  <div class="cta">Forgot your password?</a></div>
 </div>
  
     

@@ -154,7 +154,7 @@
             <div class="bluebox">
                <form class="texlab">
                   <ul>
-                     <li><label class="searchname" style="font-size:16px;">Encontre um médico perto de você </label></li>
+                     <li><label class="searchname" style="font-size:16px;">Find a Doctor or Dentist Near You </label></li>
                      
                   </ul>
                   <div class="docsearchbtn" style="margin-top:-4%;">

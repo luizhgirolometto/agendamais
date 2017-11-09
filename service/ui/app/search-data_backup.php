@@ -393,10 +393,10 @@ $data_res = '<input type="hidden" id="firstdate" value="'.$date.'">';
                                 </div>
                                 <div class="row"></div>
                                 <div class="viewpro">
-                                  <p><a href="' . WEB_ROOT . '"index.php/view-prrofile/"' . $value["doctorID"] .' ">Ver perfil</a></p>
+                                  <p><a href="' . WEB_ROOT . '"index.php/view-prrofile/"' . $value["doctorID"] .' ">View Profile</a></p>
                                 </div>
                                 <div class="book">
-                                  <p><a data-toggle="modal" class="dr_bkonline" target="' . $value['doctorID'] .'">Agendar</a></p>
+                                  <p><a data-toggle="modal" class="dr_bkonline" target="' . $value['doctorID'] .'">Book Online</a></p>
                                 </div>
                                 
                             </div>

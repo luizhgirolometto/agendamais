@@ -90,13 +90,13 @@
                <div class='row'>
                   <div class='col-md-3 col-sm-6 col-xs-12'>
                      <div class="section">
-                        <h4>Especialidade(Dermatologista,Dentista,etc.)</h4>
+                        <h4>Specialty(Dermatologist,Dentist,etc.)</h4>
                      </div>
                      <div class="form">
                         <div class="category-select">
                            <select id="srchSpeciality" class="advanceSearch" name="srchSpeciality">
                               <optgroup label="All">
-                                 <option value="" style="text-transform:unset;">Selecione a especialidade</option>
+                                 <option value="" style="text-transform:unset;">Select a Speciality</option>
                                  <?php
                                     $condition = 'category_id = 1';
                                     $scad->listbox('speciality','id','name',$condition,'`id` ASC',$selected);?>
@@ -122,33 +122,32 @@
                   </div>
                   <div class='col-md-3 col-sm-6 col-xs-12'>
                      <div class="section">
-                        <h4>Cep</h4>
+                        <h4>Location(Zip, City,State)</h4>
                      </div>
                      <div class="category-select">
-                        <input type="text" id="srchZipcode" name="srchZipcode" placeholder="Cep" value="<?php echo $docZip;?>" class="input-block-level" style="min-height:36px;" >
+                        <input type="text" id="srchZipcode" name="srchZipcode" placeholder="Zip, City, State" value="<?php echo $docZip;?>" class="input-block-level" style="min-height:36px;" >
                      </div>
                   </div>
                   <div class='col-md-3 col-sm-6 col-xs-12'>
                      <div class="section">
-                        <h4>Plano de saúde</h4>
+                        <h4>Insurance Plan</h4>
                      </div>
                      <div class="category-select">
                         <select name="insuranceSelect" class="advanceSearch" id="insuranceSelect">
-                           <option value="">Selecione o plano de saúde</option>
+                           <option value="">Select Insurance</option>
                            <?php if($insuranceSelect){$selected = $insuranceSelect;}else{$selected = NULL;}  $scad->listbox('insurance','id','name','`parent_id`=0','`name` ASC',$selected); ?>
                         </select>
                      </div>
                   </div>
-                  <!--
                   <div class='col-md-3 col-sm-6 col-xs-12'>
                      <div class="section">
-                        <h4>Gênero</h4>
+                        <h4>Gender</h4>
                      </div>
                      <div class="category-select">
                         <select id="gender" name="gender" class="select2_dr">
-                           <option value="0">Gênero do Médico</option>
-                           <option value="1">Masculino</option>
-                           <option value="2">Feminino</option>
+                           <option value="0">Doctor Gender</option>
+                           <option value="1">Male</option>
+                           <option value="2">Female</option>
                         </select>
                      </div>
                   </div>
@@ -156,11 +155,11 @@
                <div class='row'>
                   <div class='col-md-3 col-sm-6 col-xs-12'>
                      <div class="section">
-                        <h4>Razão da visita</h4>
+                        <h4>Reason for Visit</h4>
                      </div>
                      <div class="category-select">
                         <select class="select2_dr" name="srchReason" id="srchReason">
-                           <option class="parent-346" value="0">Razão para a visita</option>
+                           <option class="parent-346" value="0">Reason for Visit</option>
                            <?php $condition = '`speciality_id`="'.$docSpeciality.'"';if($srchReason){$selected = $srchReason;}else{$selected = NULL;}  $scad->listbox('reasonforvisit','id','name',$condition,'`name` ASC',$selected); ?>
                            <option class="parent-346" value="other">Other </option>
                         </select>
@@ -168,7 +167,6 @@
                         <div class="smalbut">Options</div>
                      </div>
                   </div>
-                <!--
                   <div class='col-md-3 col-sm-6 col-xs-12'>
                      <div class="section">
                         <h4>Who Speaks</h4>
@@ -180,8 +178,6 @@
                         </select>
                      </div>
                   </div>
-                  -->
-                  <!--
                   <div class='col-md-3 col-sm-6 col-xs-12'>
                      <div class="dr_frm" id="loading" style="display: none;z-index:99">
                         <img style="margin: 34px 0 0 5px;"  src="<?php echo WEB_ROOT?>service/public/images/loading.gif" />
@@ -196,11 +192,10 @@
                         </div>
                      </div>
                   </div>
-                  -->
                   <div class='col-md-3 col-sm-6 col-xs-12'>
                      <div id='advanceSearchBtn' class="search">
                         <a >
-                           <h4>Buscar</h4>
+                           <h4>Search</h4>
                         </a>
                      </div>
                   </div>
@@ -211,7 +206,7 @@
       <div class="row"></div>
       <div class="spcdoctor">
          <div class="mainstrip"></div>
-         <h2>Escolha um horário</h2>
+         <h2>SELECT A SPECIALITY DOCTORS</h2>
       </div>
       <div class="dtlist-form">
          <div class="row" style="background-color:#dadada; margin-left:0;margin-right:0;">
@@ -279,11 +274,11 @@
                      </div>
                      <div class="row"></div>
                      <div class="viewpro">
-                        <p><a href="#">Ver perfil</p>
+                        <p><a href="#">View Profile</p>
                         </a>
                      </div>
                      <div class="book">
-                        <p><a href="#">Agendar Online</p>
+                        <p><a href="#">Book Online</p>
                         </a>
                      </div>
                   </div>

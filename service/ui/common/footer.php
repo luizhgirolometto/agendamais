@@ -13,8 +13,8 @@
 </style>
 <div class="load_modal"><!-- Place at bottom of page --></div>
 <div class="footer">
-       <!--   <div class="col-md-2">
-                    <h2 class="heading">AGENDA MAIS</h2>
+            <div class="col-md-2">
+                     <h2 class="heading">AGENDA MAIS</h2>
                       <div class="bookmy">
                     <ul>
                         <li><img src="<?php echo WEB_ROOT?>service/public/images/images/abouttt.png"><a href="<?php echo WEB_ROOT?>index.php/About">SOBRE</a></li>
@@ -25,8 +25,8 @@
                           <li><img src="<?php echo WEB_ROOT?>service/public/images/images/bloge.png"><a>BLOG</a></li>
                         <li><img src="<?php echo WEB_ROOT?>service/public/images/images/doc.png"><a>BLOG MÉDICO</a></li>
                     </ul>
-                </div> 
-                  </div>-->
+                </div>
+                  </div>
                     <form style="margin-top:15px;display:none" id="hiddenform">
                   <div class="styled-selected">
                      <select name="docSpeciality" id="docSpeciality_foot">
@@ -99,7 +99,7 @@
                   </div>
                   <div  id="findDoctorBtn" class="findDoctors">Buscar </div>
                </form>
-            <div class="col-md-5">
+            <div class="col-md-4">
                      <h2 class="heading1">NOSSA LOCALIZAÇÃO</h2>
                 <div class="footer-list">
                 
@@ -109,15 +109,15 @@
                     
                     <div class="footer-list2">
                         <ul>
-                        <li><img src="<?php echo WEB_ROOT?>service/public/images/images/letterbox.png">    <a>E-MAIL: comercial@girodesenvolvimento.com</a></li>
-                        <li><img src="<?php echo WEB_ROOT?>service/public/images/images/phonee.png">   <a>TELEFONE: (46) 98412 1475 </a></li>
-                        <li><img src="<?php echo WEB_ROOT?>service/public/images/images/homme.png">    <a>ENDEREÇO: 121, Av. Tupy, Pato Branco -PR </a></li>
+                        <li><img src="<?php echo WEB_ROOT?>service/public/images/images/letterbox.png">    <a>E-MAIL; info@Bookmydoc.com</a></li>
+                        <li><img src="<?php echo WEB_ROOT?>service/public/images/images/phonee.png">   <a>TELEFONE; +000 -12601 </a></li>
+                        <li><img src="<?php echo WEB_ROOT?>service/public/images/images/homme.png">    <a>ENDEREÇO; 121, honey Street, Home City, USA </a></li>
                     </ul>
                     </div>
                 </div>
                      
                   </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
                      <h2 class="heading">BUSCAR POR</h2>
                 <div class="footer-list">
                     <ul>
@@ -137,7 +137,7 @@
                     <ul>
                         <li><a class="zip_foot" id="32701">Pato Branco</a></li>
                         <li><a class="zip_foot" id="32703">Curitiba </a></li>
-                      <!--  <li><a class="zip_foot" id="32707">Casselberry </a></li>
+                        <li><a class="zip_foot" id="32707">Casselberry </a></li>
                         <li><a class="zip_foot" id="34747">Celebration </a></li>
                         <li><a class="zip_foot" id="33755">Clearwater </a></li>
                         <li><a class="zip_foot" id="34711">Clermont </a></li>
@@ -168,7 +168,6 @@
                         <li class="hi_city1"><a class="zip_foot hi_city1" id="33880">Winter Haven</a></li>
                         <li class="hi_city1"><a class="zip_foot hi_city1" id="32789">Winter Park</a></li>
                         <li class="hi_city1"><a class="city_less1" id="" style="display:none;cursor:pointer;">less... </a></li>
-                        -->
                         </ul>
                 </div>
                      
@@ -190,7 +189,7 @@
                         <li><a class="spcl" id='<?php echo $result[$i]['id']; ?>'><?php echo $result[$i]['name']; ?></a></li>
                         <?php }
                   elseif($i==6){?>
-                        <li><a class=" more_specl1" id=''>e mais...</a></li>
+                        <li><a class=" more_specl1" id=''>more...</a></li>
                   <?php
                         }
                   
