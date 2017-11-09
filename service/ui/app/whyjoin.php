@@ -15,8 +15,9 @@
             </div> 
             <div class="row">
                 <div class="more-pat">
-            <h1>Let more patients come to you</h1>
-                    <p>Schedules helps patients find doctors and book appointments online-instanly</p>
+            <h1>Deixe que mais pacientes te encontrem.</h1>
+           
+                    <p>AgendaMais ajuda os pacientes a encontrar médicos e agendar consultas online</p>
                     </div>
              <div class="all">
                  <img src="<?php echo WEB_ROOT;?>service/public/images/images/all.png">
@@ -24,8 +25,8 @@
         </div>
             <div class="row">
                <div class="more-pat">
-            <h1>We bring new patients to your office</h1>
-                    <p>More than 5 million patients use schedules to find doctors every month.Let them book appointments with you instanly.</p>
+            <h1>Nós traremos novos pacientes para o seu consultório</h1>
+                    <p>Mais de 5 milhões de pacientes usam sites para encontrar médicos todos os meses. Deixe-os reservar compromissos com você também.</p>
                     </div>  
             </div>
             <div style="border-bottom:2px solid #dfdfdf;" class="row">
@@ -36,9 +37,9 @@
                            </div>
     </div>
     <div class="user">
-        <p> "Schedle has really helped put our practice on the map!We're<br>
-                        seeing patients we never would have seen without schedules."</p><br>
-        <p style="float:right;margin-top:-41px;font-weight:600;">- Chynna  Steel-Griffin,MD</p>
+        <p> "O AgendaMais realmente ajudou a colocar meu trabalho no mapa! Estou 
+                         tendo pacientes que não teria antes.."</p><br>
+        <p style="float:right;margin-top:-41px;font-weight:600;">- Dr. Luiz Girolometo</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -48,9 +49,9 @@
             
                 <div class="row">
                <div class="more-pat">
-            <h1>Schedule appointments 24 hours a day,7 days a week</h1>
-                    <p>Whether its 2:00AM and your office is closed or it's 2.00 PM and your phones are busy-be there for your<br>
-                        patients and fill your schedules,too
+            <h1>Programe consultas 24 horas por dia, 7 dias por semana</h1>
+                    <p>Caso seja 3:00 da manha e seu consultório está fechado ou as 14:30 e seus telefones estão todos ocupados,<br>
+                        AgendaMais estará lá, para que seus pacientes possam marcar suas consultas.
                    </p>
                     </div>  
             </div>
@@ -62,9 +63,8 @@
                            </div>
     </div>
     <div class="user">
-        <p> "Schedle has really helped put our practice on the map!We're<br>
-                        seeing patients we never would have seen without schedules."</p><br>
-        <p style="float:right;margin-top:-41px;font-weight:600;">- Chynna  Steel-Griffin,MD</p>
+        <p> "Com o agendaMais os pacientes não esquecem das consultas.."</p><br>
+        <p style="float:right;margin-top:-41px;font-weight:600;">- Dr. Jéssica Hoppe</p>
                     </div>
                     
                 </div>
@@ -75,9 +75,8 @@
             
               <div style="border-top:2px solid #dfdfdf;margin-top:60px;" class="row">
                <div class="more-pat">
-            <h1>Turn your website traffic into real appoiuntments</h1>
-                    <p>Potential patients are visiting your site right now-and leaving.In a matter of minutes Book My Doc can allow these <br>
-                        Visitors to book appointments with you instanly
+            <h1>Transforme as visitas ao seu site em pacientes</h1>
+                    <p>Pacientes estão visitando seu perfil agora mesmo. Em questão de minutos, o AgendaMais pode permitir estes visitantes agendem consultas com você.
                    </p>
                     </div>  
             </div>
@@ -89,9 +88,8 @@
                            </div>
     </div>
     <div class="user">
-        <p> "Schedle has really helped put our practice on the map!We're<br>
-                        seeing patients we never would have seen without schedules."</p><br>
-        <p style="float:right;margin-top:-41px;font-weight:600;">- Chynna  Steel-Griffin,MD</p>
+        <p> "O AgendaMais agiliza muito meu trabalho.."</p><br>
+        <p style="float:right;margin-top:-41px;font-weight:600;">- Dr Marlon Cesar</p>
                     </div>
                     
                 </div>
@@ -113,7 +111,7 @@
             </ul>
          </div>
          <div class="whyjn_clm1">
-            <h1>Let more patients come to you</h1>
+            <h1>Deixe que mais pacientes te encontrem.</h1>
             <p> Schedules helps patients find doctors and book appointments online — instantly </p>
             <p style="text-align:center;"> <img src="<?php echo WEB_ROOT;?>service/public/images/why_joinpic1.jpg"  alt=""> </p>
          </div>

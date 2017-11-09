@@ -155,9 +155,9 @@ for($j=0;$j<$max;$j++){
 			
 		
 			if(in_array($value,$brTime)){
-				$tmpAry[$key]="Intervalo";
+				$tmpAry[$key]="Break";
 			}elseif(in_array($value,$apntTime) ){
-				$tmpAry[$key]="Indisponivel";
+				$tmpAry[$key]="Booked";
 			}
 
 			}

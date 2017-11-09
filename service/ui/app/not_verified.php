@@ -6,7 +6,7 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<title>Find a Doctor - Doctor Reviews & Ratings | Book Online Instantly – Bookmydoc </title>
+<title>Agende Online com AgendaMais </title>
 
 <link href="images/favicon.png" type="image/png" rel="shortcut icon">
 <style>
