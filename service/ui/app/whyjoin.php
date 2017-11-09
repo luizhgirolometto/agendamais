@@ -5,12 +5,12 @@
                <div class="col-md-6"></div>
                <div class="col-md-6 col-sm-6 col-xs-12">
                    <ul class="works">
-                       <li>Why Join</li>
+                     <!-- <li>Por que se juntar</li> -->
                      
-                       <li>How It Works</li>
+                       <li> </li> 
                    </ul>
                      <div class="why-join"></div>
-                <div class="large-butt"><a style="color:#fff;" href="<?php echo WEB_ROOT;?>index.php/join/doctor">Join Now</a></div>
+                <div class="large-butt"><a style="color:#fff;" href="<?php echo WEB_ROOT;?>index.php/join/doctor">Junte-se a nós</a></div>
                </div>
             </div> 
             <div class="row">
@@ -100,7 +100,7 @@
             
             </div>
 
-<!-- <section  class="team-modern-12">
+<!--<section  class="team-modern-12">
    <div class="container">
       <div class="whyjoin_main">
          <div class="whyjon_nav">
@@ -158,6 +158,6 @@
          </div>
       </div>
    </div>
-</section> -->
+</section>  -->
 <?php include("service/ui/common/footer.php"); ?>
 

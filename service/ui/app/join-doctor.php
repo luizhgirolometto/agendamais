@@ -14,27 +14,27 @@ include("service/ui/common/header.php");
       <div class="col-md-12 col-sm-12 col-xs-12">
          <div class="col-md-6 col-sm-6 col-xs-6">
             <div class="signup_nw">
-               <h1> You’ll love being on Bookmydoc </h1>
+               <h1> Você vai adorar estar no AgendaMais </h1>
                <ul>
                   <li>
-                     <h2> You’ll love being on Bookmydoc </h2>
-                     Access Bookmydoc network of more than 5 million patients. 
+                     <h2> Você vai adorar estar no AgendaMais  </h2>
+                     Mais de 100 milhões de brasileiros acessam a internet 
                   </li>
                   <li>
-                     <h2> You’ll love being on Bookmydoc </h2>
-                     Let patients schedule appointments with you instantly, 24-7, from Bookmydoc and from your practice website.
+                     <h2> Você vai adorar estar no AgendaMais </h2>
+                     Deixe seus pacientes agendar consultas com você instantaneamente.
                   </li>
                   <li>
-                     <h2> You’ll love being on Bookmydoc </h2>
-                     Access Bookmydoc network of more than 5 million patients. 
+                     <h2> Você vai adorar estar no AgendaMais  </h2>
+                     Por mais algum motivo
                   </li>
                   <li>
-                     <h2> You’ll love being on Bookmydoc  </h2>
-                     Access Bookmydoc network of more than 5 million patients. 
+                     <h2> Você vai adorar estar no AgendaMais  </h2>
+                     Deve ter mais algum ainda 
                   </li>
                   <li>
-                     <h2> You’ll love being on Bookmydoc  </h2>
-                     Let patients schedule appointments with you instantly, 24-7, from Book My Doc.com and from your practice website.
+                     <h2> Você vai adorar estar no AgendaMais   </h2>
+                     E por algum outro ainda
                   </li>
                </ul>
             </div>

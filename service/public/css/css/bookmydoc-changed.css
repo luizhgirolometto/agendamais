@@ -332,7 +332,7 @@ ul.welcomes{list-style-type: none;overflow:auto;margin:30px auto;width:100%;disp
 
 ul.works{list-style-type: none;overflow:auto;margin:30px auto;text-align:center;width:64%;}
 ul.works li{float:left;padding: 17px;display: inline;color: #1f8dd6;font-size: 19px;font-family:'calibri';}
-.large-butt{background-color:#1f8dd6;color: white;font-family:'calibri';font-size: 17px;text-align: center;width: 30%;padding: 5px;cursor: pointer;float: right;margin-top:-74px;}
+.large-butt{background-color:#c81e51;color: white;font-family:'calibri';font-size: 17px;text-align: center;width: 30%;padding: 5px;cursor: pointer;float: right;margin-top:-74px;}
 .more-pat h1 {text-align: center;margin-top: 40px;font-family:'calibri';font-size: 45px;}
 .more-pat p{text-align: center;font-size: 24px;font-family:'calibri';font-weight: 300;}
 .all img {background-image:url(../images/all.png);background-repeat: no-repeat;background-position: 50% 50%;  vertical-align: middle;
