@@ -180,10 +180,10 @@
                                       </div>
                                       <div class="row"></div>
                                       <div class="viewpro">
-                                          <p><a href="'. WEB_ROOT . "index.php/view-prrofile/" . $key . '">View Profile</a></p>
+                                          <p><a href="'. WEB_ROOT . "index.php/view-prrofile/" . $key . '">Ver perfil</a></p>
                                       </div>
                                       <div class="book">
-                                          <p><a href="javascript:void(0);" data-toggle=\"modal\" class=\"dr_bkonline\" target=" '. $key .'">Book Online</a></p>
+                                          <p><a href="javascript:void(0);" data-toggle=\"modal\" class=\"dr_bkonline\" target=" '. $key .'">Agendar</a></p>
                                       </div>
                                   </div>
                                  

@@ -1,2 +1,2 @@
-var SITEURL = "http://girodesenvolvimento.com/agendamais/index.php/";
-var SITEURL1 = "http://girodesenvolvimento.com/agendamais/"
+var SITEURL = "http://localhost/agendamaisweb/index.php/";
+var SITEURL1 = "http://localhost/agendamaisweb/"

@@ -15,7 +15,7 @@ include(APP_PATH."service/ui/common/home_header.php");
                   <div class="col-lg-12">
                      <div class="col-md-8">
                         <div class="form">
-                        <h2>Encotre um médico e agende sua consulta</h2>
+                        <h2>Encontre um médico e agende sua consulta</h2>
                         </div>
                      </div>
                      <div class="col-md-4"></div>
@@ -60,7 +60,7 @@ include(APP_PATH."service/ui/common/home_header.php");
                                     </optgroup>
                                  </select>
                               </div>
-                           <label>in</label>
+                           <label> </label> 
                            <input type="text" placeholder="Cep" name="docZip" id="doc-zip">
                         </fieldset>
                      </div>
@@ -143,13 +143,37 @@ include(APP_PATH."service/ui/common/home_header.php");
 <h1>CUIDADOS MÉDICOS À SUA DEMANDA!</h1>
 <p>Encontre um médico ou dentista nas proximidades e reserve uma consulta instantaneamente. E é grátis! </p>
 <h2>CARACTERÍSTICAS</h2>
+
+<ul class="list-unstyled">
+  <li class="media">
+    <img class="mr-3" src="..." alt="Generic placeholder image">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">EFICIÊNCIA</h5>
+      Saiba exatamente quem são os médicos que atendem no pelo seu plano de sáude ou convênio.
+    </div>
+  </li>
+  <li class="media my-4">
+    <img class="mr-3" src="..." alt="Generic placeholder image">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">QUALIDADE</h5>
+      Leia as avaliações dos pacientes para ajudá-lo a escolher o médico certo.
+    </div>
+  </li>
+  <li class="media">
+    <img class="mr-3" src="..." alt="Generic placeholder image">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">FACILIDADE </h5>
+      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+    </div>
+  </li>
+</ul>
 <ul>
-<li><a>Veja um mapa de médicos em seu plano de sáude.</a></li>
-<li><a>Leia as avaliações dos pacientes para ajudá-lo a escolher o médico certo.</a></li>
-<li><a>Veja os horários disponíveis de qualquer médico e clique para reservar!</a></li>
+<!-- <li><a>Veja um mapa de médicos em seu plano de sáude.</a></li>
+//<li><a></a></li>
+<li><a>Veja os horários disponíveis de qualquer médico e clique para reservar!</a></li> -->
 
 </ul>
-<h2>FAÇA O DOWNLOAD DO APP</h2>
+<h2>FAÇA O DOWNLOAD DO APLICATIVO</h2>
 </div>
 </div>
 
